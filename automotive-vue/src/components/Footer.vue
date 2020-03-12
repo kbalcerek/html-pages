@@ -11,44 +11,29 @@
                   <router-link replace :to="{ path: router() }">About</router-link>
                 </li>
                 <li>
-                  <router-link replace :to="{ path: router('ontology') }">FIBO Viewer</router-link>
+                  <router-link replace :to="{ path: router('aim-and-scope') }">Aim And Scope</router-link>
                 </li>
                 <li>
-                  <router-link replace :to="{ path: router('FIBO-Groups') }">FIBO Groups</router-link>
+                  <router-link replace :to="{ path: router('deliverables') }">Deliverables</router-link>
                 </li>
                 <li>
-                  <router-link replace :to="{ path: router('how-to-contribute') }">How to contribute</router-link>
+                  <router-link replace :to="{ path: router('members') }">Members</router-link>
                 </li>
                 <li>
-                  <router-link replace :to="{ path: router('FIBO-Release-Notes') }">Release notes</router-link>
+                  <router-link replace :to="{ path: router('forum') }">Forum</router-link>
                 </li>
                 <li>
-                  <router-link replace :to="{ path: router('OWL') }">FIBO OWL</router-link>
-                </li>                               
+                  <router-link replace :to="{ path: router('contact') }">Contact</router-link>
+                </li>
               </ul>
             </div>
-            <div class="col-md-6">
+            <!-- <div class="col-md-6">
               <ul>
                 <li>
                   <router-link replace :to="{ path: router('vocabulary') }">FIBO vocabulary</router-link>
-                </li>                 	
-                <li>
-                  <router-link replace :to="{ path: router('data-dictionary') }">FIBO data dict.</router-link>
-                </li>
-                <li>
-                  <router-link replace :to="{ path: router('courses') }">FIBO courses</router-link>
-                </li>
-                <li>
-                  <router-link replace :to="{ path: router('use-cases') }">FIBO use cases</router-link>
-                </li>
-                <li>
-                  <router-link replace :to="{ path: router('schema') }">FIBO schema.org</router-link>
-                </li>
-                <li>
-                  <router-link replace :to="{ path: router('FIB-DM') }">FIBO FIB-DM</router-link>
                 </li>
               </ul>
-            </div>
+            </div> -->
 
             <!-- end content -->
           </div>
