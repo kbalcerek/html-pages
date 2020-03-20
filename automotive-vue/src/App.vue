@@ -62,13 +62,6 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
-.fibo-logo{
-  border: 1px solid map-get($colors-map, 'medium-grey');
-  float: left;
-  padding: 20px;
-  margin: 0 40px 40px 0;
-}
 .fill-image-site {
   width: 324px;
   height: 388px;
@@ -84,6 +77,7 @@ hr {
   position: absolute;
   top: 40%;
   left: 10%;
+  opacity: 0.07;
 }
 
 @media (max-width: 1559px) {

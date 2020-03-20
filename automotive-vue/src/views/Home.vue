@@ -8,7 +8,7 @@
 
                 <h3>Breaking News: W3C Automotive Ontology Community Group</h3>
 
-                <img src="../assets/img/aowg_logo.png" class="fibo-logo img-fluid" />
+                <img src="../assets/img/aowg_logo.png" class="automotive-logo img-fluid" />
 
                 <p>
                     On May 8, 2015, we founded a W3C Community Group. In the coming weeks, we will gradually migrate this
@@ -51,5 +51,11 @@
 </script>
 
 <style lang="scss" scoped>
-
+.automotive-logo{
+  border: 1px solid map-get($colors-map, 'medium-grey');
+  float: left;
+  width: 400px;
+  padding: 20px;
+  margin: 0 40px 40px 0;
+}
 </style>
