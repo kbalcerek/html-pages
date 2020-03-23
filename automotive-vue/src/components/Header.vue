@@ -51,6 +51,9 @@
             <router-link class="nav-link" replace :to="{ path: router() }">About</router-link>
           </li>
           <li class="nav-item">
+            <router-link class="nav-link" replace :to="{ path: router('ontology') }">Viewer</router-link>
+          </li>
+          <li class="nav-item">
             <router-link class="nav-link" replace :to="{ path: router('aim-and-scope') }">Aim And Scope</router-link>
           </li>
           <li class="nav-item">

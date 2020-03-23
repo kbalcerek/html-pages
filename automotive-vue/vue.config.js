@@ -16,14 +16,21 @@ module.exports = {
   runtimeCompiler: true,
   devServer: {
     proxy: {
-      '^/search/json$': {
-        target: 'http://172.30.1.116:9000',
-      },
-      '^/module/json$': {
-        target: 'http://172.30.1.116:9000',
-      },
-      '^/hint': {
-        target: 'http://172.30.1.116:9000',
+      // '^/auto/search/json$': {
+      //   target: 'http://auto-viewer.spec.edmcouncil.org',
+      // },
+      // '^/auto/module/json$': {
+      //   target: 'http://auto-viewer.spec.edmcouncil.org',
+      // },
+      // '^/auto/hint': {
+      //   target: 'http://auto-viewer.spec.edmcouncil.org',
+      // },
+      '^/auto': {
+        target: 'http://auto-viewer.spec.edmcouncil.org',
+        changeOrigin: true,
+        secure:false,
+        pathRewrite: {'^/auto': '/'},
+        //logLevel: 'debug'
       },
     },
   },

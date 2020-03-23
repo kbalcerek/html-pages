@@ -39,6 +39,14 @@ export default new Router({
       component: () => import(/* webpackChunkName: "Contact" */ './views/Contact.vue'),
     },
     {
+      path: '/ontology/:1?/:2?/:3?/:4?/:5?',
+      name: 'ontology',
+      component: () => import(/* webpackChunkName: "Schema" */ './views/Ontology.vue'),
+      meta: {
+        plainLayout: false, // Layout without banner
+      },
+    },
+    {
       path: '*',
       redirect: '/',
     },
